@@ -1,0 +1,50 @@
+/* Defining a class and an ID */
+/* This CSS file styles a simple webpage with a header, button, and some basic resets */
+  #header {
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 24px;
+    color:#333;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Reset some default browser styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
